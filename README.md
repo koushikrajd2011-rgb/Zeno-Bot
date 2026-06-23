@@ -1,6 +1,6 @@
 # 🚀 Zeno Bot
 
-Zeno Bot is a Slack-based assistant built for the NASA STARDANCE × Hack Club program. It uses Node.js and Slack Bolt to bring real-time API responses directly into Slack using slash commands.
+Zeno Bot is a Slack-based assistant. It uses Node.js and Slack Bolt to bring real-time API responses directly into Slack using slash commands.
 
 The project focuses on API integration, automation, and building interactive tools that connect external data sources to Slack.
 
