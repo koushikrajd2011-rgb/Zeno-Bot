@@ -30,6 +30,7 @@ app.command("/zeno-bot-help", async ({ ack, respond }) => {
 /zeno-bot-help - Show commands
 /zeno-bot-fact - Get a random fact
 /zeno-bot-joke - Get a random joke
+/zeno-bot-define - Get the definition of a word
 /zeno-bot-image - Get a random image`
   });
 });
