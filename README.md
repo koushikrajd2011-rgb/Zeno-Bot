@@ -5,7 +5,7 @@ Zeno Bot is a Slack-based assistant built for the NASA STARDANCE × Hack Club pr
 The project focuses on API integration, automation, and building interactive tools that connect external data sources to Slack.
 
 # ✨ Features
-📌 Fetches random world facts using public APIs
+📌 Fetches random world facts using public APIs and gives new words for better vocabulary
 😂 Generates random jokes using a joke API
 🌌 Displays NASA Astronomy Picture of the Day (space images)
 📖 Built-in help command showing all available commands
