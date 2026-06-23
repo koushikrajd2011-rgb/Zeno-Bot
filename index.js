@@ -34,6 +34,23 @@ app.command("/zeno-bot-help", async ({ ack, respond }) => {
   });
 });
 
+app.command("/zeno-bot-define", async ({ ack, command, respond }) => {
+  await ack();
+
+  try {
+    const word = command.text;
+    const res = await axios.get(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
+
+    const meaning = res.data[0].meanings[0].definitions[0].definition;
+
+    await respond({
+      text: `📖 *${word}*\nMeaning: ${meaning}`
+    });
+  } catch (err) {
+    await respond({ text: "Word not found." });
+  }
+});
+
 app.command("/zeno-bot-ping", async ({ command, ack, respond }) => {
   const start = Date.now();
   await ack();
