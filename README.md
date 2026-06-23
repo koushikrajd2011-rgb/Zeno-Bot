@@ -17,3 +17,5 @@ The project focuses on API integration, automation, and building interactive too
 📊 Interactive Slack dashboards
 ☁️ 24/7 cloud deployment with monitoring
 
+USE OF AI - For making some parts of introduction website for Zeno Bot and debugging.
+
