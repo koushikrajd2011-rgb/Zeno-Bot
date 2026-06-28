@@ -1,18 +1,28 @@
-This bot kinda slacking off, it will soon reply to messages 24/7! It will get to work 24/7 very soon. 
+# Zeno Bot 🤖
 
-🚀 Zeno Bot
-Zeno Bot is a Slack-based assistant. It uses Node.js and Slack Bolt to bring real-time API responses directly into Slack using slash commands.
+Zeno Bot is a Slack bot i made within a couple of hours. It can be referred to as a chillest bot and answers your commands 24/7. Here is all it can do for now - 
 
-The project focuses on API integration, automation, and building interactive tools that connect external data sources to Slack.
+## Features
 
-✨ Features
-📌 Fetches random world facts using public APIs and gives new words for better vocabulary 😂 Generates random jokes using a joke API 🌌 Displays NASA Astronomy Picture of the Day (space images) 📖 Built-in help command showing all available commands 🔗 Real-time API integration using Axios
+- Look up the definition of a word
+- Get a random joke
+- Receive a random fact
+- Display a random image
+- Check the bot's response time
+- View all available commands
 
-🚀 Future Updates
-🧠 AI-powered chatbot responses 🌦️ Weather forecast command using weather APIs 📊 Interactive Slack dashboards ☁️ 24/7 cloud deployment with monitoring
+## Commands
 
-USE OF AI - For making some parts of introduction website for Zeno Bot and debugging.
+| Command | Description |
+|---------|-------------|
+| `/zeno-bot-help` | Shows all available commands |
+| `/zeno-bot-fact` | Returns a random fact |
+| `/zeno-bot-joke` | Returns a random joke |
+| `/zeno-bot-define <word>` | Looks up the definition of a word |
+| `/zeno-bot-image` | Displays a random image |
+| `/zeno-bot-ping` | Checks if the bot is online |
 
+Now try out what Zeno-Bot can do!
 
 
 
