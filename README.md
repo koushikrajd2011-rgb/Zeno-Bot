@@ -24,5 +24,7 @@ Zeno Bot is a Slack bot i made within a couple of hours. It can be referred to a
 
 Now try out what Zeno-Bot can do!
 
+USE OF AI - Debugging and making of Introduction website.
+
 
 
