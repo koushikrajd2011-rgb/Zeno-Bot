@@ -22,7 +22,7 @@ Zeno Bot is a Slack bot i made within a couple of hours. It can be referred to a
 | `/zeno-bot-image` | Displays a random image |
 | `/zeno-bot-ping` | Checks if the bot is online |
 
-Now try out what Zeno-Bot can do!
+Now try out what Zeno-Bot can do! - https://koushikrajd2011-rgb.github.io/Zeno-Bot/
 
 USE OF AI - Debugging and making of Introduction website.
 
