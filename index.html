@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Zeno Bot - Your Slack-Bot Assistant</title>
+<title>Zeno Bot - Your Slack-Bot (Made by me tho)</title>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"/>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -33,7 +33,7 @@ canvas#stars{position:fixed;inset:0;z-index:0;pointer-events:none}
  
 .page{position:relative;z-index:1}
  
-/* ── NAV ── */
+/* ── Navigate area and stuff ── */
 nav{
   display:flex;align-items:center;justify-content:space-between;
   padding:1.2rem 2.5rem;
@@ -135,7 +135,7 @@ section{padding:6rem 2rem;max-width:1000px;margin:0 auto}
 }
 .s-sub{color:var(--muted);font-size:0.95rem;margin-bottom:3rem}
  
-/* ── FEATURE CARDS ── */
+/* ── FEATURE CARDS AREA ── */
 .features-grid{
   display:grid;
   grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
@@ -270,7 +270,6 @@ section{padding:6rem 2rem;max-width:1000px;margin:0 auto}
 @keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
 .refresh-icon{display:inline-block;font-size:0.9rem}
  
-/* ── CTA ── */
 .cta-section{
   padding:6rem 2rem;text-align:center;
   border-top:1px solid var(--border);
@@ -281,8 +280,7 @@ section{padding:6rem 2rem;max-width:1000px;margin:0 auto}
   color:#fff;margin-bottom:1rem;line-height:1.15;
 }
 .cta-section p{color:var(--muted);margin-bottom:2.5rem;font-size:1rem}
- 
-/* ── FOOTER ── */
+
 footer{
   text-align:center;padding:2rem;
   font-size:0.75rem;color:var(--muted);
@@ -319,11 +317,11 @@ footer{
  
   <!-- HERO -->
   <div class="hero">
-    <div class="hero-label">Your Slack Assistant · Slash Commands · Real-time APIs</div>
+    <div class="hero-label">Your Slack Assistant · Slash Commands · 12 API's used ( i didnt count)</div>
     <h1>Meet<br/><em>Zeno Bot</em></h1>
     <p class="hero-desc">
-      A Slack-based assistant powered by Node.js and Slack Bolt.
-      Real-time APIs, slash commands, and space-grade automation — all inside your workspace.
+      A Slack-based assistant made using Node.js and Slack Bolt.
+     Slash Commands, slash commands, and more stuff stuff stuff.....
     </p>
     <div class="hero-actions">
       <a href="https://app.slack.com/client/E09V59WQY1E/C0BCH40JN7K" target="_blank" rel="noopener" class="btn btn-primary">
@@ -347,38 +345,38 @@ footer{
   <section id="features">
     <div class="reveal s-eyebrow">What it does</div>
     <div class="reveal reveal-delay-1 s-title">Everything Zeno can do</div>
-    <div class="reveal reveal-delay-2 s-sub">Slash commands that connect your Slack to the real world, instantly.</div>
+    <div class="reveal reveal-delay-2 s-sub">Slash commands that are pretty useful</div>
  
     <div class="features-grid">
       <div class="feat-card reveal reveal-delay-1">
         <span class="feat-icon">🌍</span>
         <div class="feat-title">/fact</div>
-        <div class="feat-desc">Fetches a random world fact from public APIs. Drop a fun fact into any channel, any time.</div>
+        <div class="feat-desc">Fetches a random world fact from public APIs. Drop a fun fact into any channel (join mine), any time.</div>
       </div>
       <div class="feat-card reveal reveal-delay-2">
         <span class="feat-icon">😂</span>
         <div class="feat-title">/joke</div>
-        <div class="feat-desc">Pulls a random joke from a joke API. Lighten the mood mid-mission.</div>
+        <div class="feat-desc">Pulls a random joke from a joke API.</div>
       </div>
       <div class="feat-card reveal reveal-delay-3">
         <span class="feat-icon">🌌</span>
         <div class="feat-title">/apod</div>
-        <div class="feat-desc">Displays NASA's Astronomy Picture of the Day, complete with the official description.</div>
+        <div class="feat-desc">Displays NASA's Astronomy Picture of the Day.</div>
       </div>
       <div class="feat-card reveal reveal-delay-4">
         <span class="feat-icon">📖</span>
         <div class="feat-title">/help</div>
-        <div class="feat-desc">Shows a full list of available commands. Onboard new crew members in seconds.</div>
+        <div class="feat-desc">Shows a full list of available commands.</div>
       </div>
       <div class="feat-card reveal reveal-delay-5">
         <span class="feat-icon">⚡</span>
-        <div class="feat-title">Real-time APIs</div>
-        <div class="feat-desc">Powered by Axios for fast, reliable API calls. Every response is fresh, every time.</div>
+        <div class="feat-title">And more stuff u can figure out by trying it out</div>
+        <div class="feat-desc">Used Axios and npm and more things. Find them all in the guide by making ur own slack bot too!</div>
       </div>
       <div class="feat-card reveal">
         <span class="feat-icon">🔗</span>
         <div class="feat-title">Slack-native</div>
-        <div class="feat-desc">Built on Slack Bolt and Node.js. Lives entirely inside Slack — no extra apps needed.</div>
+        <div class="feat-desc">Built on Slack Bolt and Node.js.</div>
       </div>
     </div>
   </section>
@@ -387,7 +385,7 @@ footer{
   <section id="wotd">
     <div class="reveal s-eyebrow">Daily feature</div>
     <div class="reveal reveal-delay-1 s-title">Word of the Day</div>
-    <div class="reveal reveal-delay-2 s-sub">Expand your vocabulary, one word at a time. Refreshes every day.</div>
+    <div class="reveal reveal-delay-2 s-sub">Expand your vocabulary, one word at a time. Chnages every day.</div>
 
     <div class="wotd-card reveal reveal-delay-3">
       <div class="wotd-top">
@@ -419,34 +417,7 @@ footer{
       <span class="stack-pill"><span class="pill-dot"></span>Slash Commands</span>
     </div>
   </section>
-
-  <!-- FUTURE -->
-  <section>
-    <div class="reveal s-eyebrow">What's next</div>
-    <div class="reveal reveal-delay-1 s-title">Future updates</div>
-    <div class="reveal reveal-delay-2 s-sub">The roadmap for Zeno's next chapter.</div>
  
-    <div class="future-list">
-      <div class="future-item reveal reveal-delay-1">
-        <span class="future-num">01</span>
-        <span class="future-text"><strong>AI-powered chatbot responses</strong> — Natural language processing so Zeno can actually converse, not just respond to commands.<span class="coming">soon</span></span>
-      </div>
-      <div class="future-item reveal reveal-delay-2">
-        <span class="future-num">02</span>
-        <span class="future-text"><strong>Weather forecast command</strong> — Live weather data pulled from a weather API via a new <code>/weather</code> slash command.</span>
-      </div>
-      <div class="future-item reveal reveal-delay-3">
-        <span class="future-num">03</span>
-        <span class="future-text"><strong>Interactive Slack dashboards</strong> — Rich Block Kit UI with buttons, modals, and live-updating data panels.</span>
-      </div>
-      <div class="future-item reveal reveal-delay-4">
-        <span class="future-num">04</span>
-        <span class="future-text"><strong>24/7 cloud deployment</strong> — Always-on hosting with uptime monitoring so Zeno never sleeps.</span>
-      </div>
-    </div>
-  </section>
- 
-  <!-- CTA -->
   <div class="cta-section">
     <div class="reveal"><h2>Ready to try<br/>Zeno Bot?</h2></div>
     <div class="reveal reveal-delay-1"><p>Jump into the Slack and run your first slash command.</p></div>
